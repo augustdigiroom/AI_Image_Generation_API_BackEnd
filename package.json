@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "file:cloudinary-1.41.3.tgz",
+    "cors": "^2.8.5",
+    "dotenv": "file:dotenv-16.3.1.tgz",
+    "express": "file:express-4.19.2.tgz",
+    "mongoose": "file:mongoose-8.4.3.tgz",
+    "openai": "file:openai-4.30.0.tgz"
+  },
+  "devDependencies": {
+    "nodemon": "file:nodemon-3.1.0.tgz"
+  }
+}
