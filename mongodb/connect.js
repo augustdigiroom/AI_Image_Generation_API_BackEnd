@@ -10,5 +10,5 @@ const connectDB = (url) => {
         console.error(err);
         });
     };
-
+    
 export default connectDB;
